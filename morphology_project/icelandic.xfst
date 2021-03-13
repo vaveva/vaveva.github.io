@@ -38,7 +38,7 @@ define aToe a -> e || Vowels+ _ Consonants+ %^ u |  Consonants+ Flags %^ u;
 define CleanUp %^ -> 0 ;
 
 regex Lexicon .o. DeleteI .o. AddJ .o. IIToI .o. UmnumToNum .o. KiliToKli .o. 
-               RemoveI .o. Itoi .o. RemoveU .o. aToe .o. AToÖ .o. óToæ ;
+               RemoveI .o. Itoi .o. RemoveU .o. aToe .o. AToÖ .o. óToæ .o. CleanUp ;
 
 print lower-words
 
