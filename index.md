@@ -4,7 +4,7 @@ layout: default
 
 ## Introduction
 
-<img src="assets/images/cv_kuva.png" alt="Photo" hspace="20" width="30%" align="left"/> A language technology major at the University of Helsinki with a Bachelor's degree in Scandinavian languages (Swedish as second domestic language).
+<img src="assets/images/cv_kuva.png" alt="Photo" hspace="20" width="30%" align="right"/> A language technology major at the University of Helsinki with a Bachelor's degree in Scandinavian languages (Swedish as second domestic language).
 
 ## Find me on
 
