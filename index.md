@@ -4,7 +4,7 @@ layout: default
 
 ## Introduction
 
-<img src="assets/images/cv_kuva.jpg" alt="Photo" hspace="20" width="30%" align="left"/> A Language Technology major at the University of Helsinki
+<img src="assets/images/cv_kuva.png" alt="Photo" hspace="20" width="30%" align="left"/> A Language Technology major at the University of Helsinki
 
 ## Find me on
 
