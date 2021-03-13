@@ -44,7 +44,7 @@ Command line course
 
 ## Projects
 
-[Machine Learning for Linguists final project](https://github.com/vaveva/ML-final_project)
+[Machine learning for linguists final project](https://github.com/vaveva/vaveva.github.io/blob/master/text_categorization_project.ipynb)
 
 ## Misc. 
 
