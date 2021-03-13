@@ -1,0 +1,334 @@
+Multichar_Symbols
+	+N
+	+Def
+	+Nom+Sg
+	+Acc+Sg
+	+Dat+Sg
+	+Gen+Sg
+	+Nom+Pl
+	+Acc+Pl
+	+Dat+Pl
+	+Gen+Pl
+	@P.WEAK.AR@
+	@R.WEAK.AR@
+	@P.WEAK.UR@
+	@R.WEAK.UR@
+	@P.MASC.UR1@
+	@P.MASC.UR2@
+	@P.MASC.UR3@
+	@R.MASC.UR1@
+	@D.MASC.UR1@
+	@R.MASC.UR3@
+	@D.MASC.UR3@
+	
+LEXICON Root
+ 	NounStems ;
+
+LEXICON NounStems
+@P.MASC.UR1@hestur:@P.MASC.UR1@hest	MasculineUr ;	
+@P.MASC.UR2@dalur:@P.MASC.UR2@dal 	MasculineUr ;
+@P.MASC.UR3@staður:@P.MASC.UR3@stað	MasculineUr ;
+lykill:lykil				MasculineL ;
+jökull:jökul				MasculineL ;
+hellir:hell				MasculineR ;
+læknir:lækn				MasculineR ;
+fleinn:flein				MasculineN ;
+steinn:stein				MasculineN ;
+fugl:fugl				Masculine0 ;
+@P.WEAK.AR@pabbi:@P.WEAK.AR@pabb	MasculineWeak ;
+@P.WEAK.AR@ái:@P.WEAK.AR@á		MasculineWeak ;
+@P.WEAK.UR@bóndi:@P.WEAK.UR@bónd	MasculineWeak ;
+@P.WEAK.UR@búandi:@P.WEAK.UR@búand	MasculineWeak ;
+borg:borg				FeminineIr ;
+mynd:mynd				FeminineIr ;
+mey:mey					FeminineAr ;
+skál:skál				FeminineAr ;
+bók:bók					FeminineUr ;
+grind:grind				FeminineUr ;
+@P.WEAK.UR@júkka:@P.WEAK.UR@júkk	FeminineWeak ;
+@P.WEAK.UR@stofa:@P.WEAK.UR@stof	FeminineWeak ;
+@P.WEAK.AR@heiði:@P.WEAK.AR@heið	FeminineWeak ;
+blóm:blóm				NeuterStrong ;
+glas:glas				NeuterStrong ;
+auga:aug				NeuterWeak ;
+eyra:eyr				NeuterWeak ;
+
+LEXICON MasculineR 
+:^ MascCaseR ;
+
+LEXICON MasculineN
+:^ MascCaseN ;
+
+LEXICON Masculine0
+:^ MascCase0 ;
+
+LEXICON MasculineL 
+:^	MascCaseL ;
+
+LEXICON MasculineWeak 
+:^	MascCaseWeak ;
+
+LEXICON MasculineUr 
+:^	MascCaseUr ;
+
+LEXICON NeuterWeak
+:^ NeuterCaseWeak ;
+
+LEXICON NeuterStrong 
+:^	NeuterCaseStrong ;
+
+LEXICON FeminineWeak
+:^	FemCaseWeak ;
+
+LEXICON FeminineUr
+:^	FemCaseUr ;
+
+LEXICON FeminineAr
+:^	FemCaseAr ;
+
+LEXICON FeminineIr
+:^	FemCaseIr ;
+
+LEXICON NeuterCaseStrong
++Nom+Sg:0       NeuterDefNomSg ;
++Acc+Sg:0       NeuterDefAccSg ;
++Dat+Sg:i       NeuterDefDatSg ;
++Gen+Sg:s       NeuterDefGenSg ;
+
++Nom+Pl:0      NeuterDefNomPl ;
++Acc+Pl:0       NeuterDefAccPl ;
++Dat+Pl:um      NeuterDefDatPl ;
++Gen+Pl:a       NeuterDefGenPl ;
+
+LEXICON NeuterCaseWeak
++Nom+Sg:a       NeuterDefNomSg ;
++Acc+Sg:a       NeuterDefAccSg ;
++Dat+Sg:a       NeuterDefDatSg ;
++Gen+Sg:a       NeuterDefGenSg ;
+
++Nom+Pl:u      NeuterDefNomPl ;
++Acc+Pl:u       NeuterDefAccPl ;
++Dat+Pl:um      NeuterDefDatPl ;
++Gen+Pl:na       NeuterDefGenPl ;
+
+LEXICON FemCaseWeak
+@R.WEAK.UR@+Nom+Sg:@R.WEAK.UR@a       	FemDefNomSg ;
+@R.WEAK.UR@+Acc+Sg:@R.WEAK.UR@u       	FemDefAccSg ;
+@R.WEAK.UR@+Dat+Sg:@R.WEAK.UR@u       	FemDefDatSg ;
+@R.WEAK.UR@+Gen+Sg:@R.WEAK.UR@u       	FemDefGenSg ;
+@R.WEAK.AR@+Nom+Sg:@R.WEAK.AR@i		FemDefNomSg ;
+@R.WEAK.AR@+Acc+Sg:@R.WEAK.AR@i 	FemDefAccSg ;
+@R.WEAK.AR@+Dat+Sg:@R.WEAK.AR@i 	FemDefDatSg ;
+@R.WEAK.AR@+Gen+Sg:@R.WEAK.AR@ar 	FemDefGenSg ;  
+
+@R.WEAK.UR@+Nom+Pl:@R.WEAK.UR@ur      	FemDefNomPl ;
+@R.WEAK.AR@+Nom+Pl:@R.WEAK.AR@ar	FemDefNomPl ;
+@R.WEAK.UR@+Acc+Pl:@R.WEAK.UR@ur       	FemDefAccPl ;
+@R.WEAK.AR@+Acc+Pl:@R.WEAK.AR@ar	FemDefAccPl ;
++Dat+Pl:um      FemDefDatPl ;
++Gen+Pl:a       FemDefGenPl ;
+
+LEXICON FemCaseUr
++Nom+Sg:       FemDefNomSg ;
++Acc+Sg:       FemDefAccSg ;
++Dat+Sg:       FemDefDatSg ;
++Gen+Sg:ar       FemDefGenSg ;
+
++Nom+Pl:ur      FemDefNomPl ;
++Acc+Pl:ur       FemDefAccPl ;
++Dat+Pl:um      FemDefDatPl ;
++Gen+Pl:a       FemDefGenPl ;
+
+LEXICON FemCaseAr
++Nom+Sg:       FemDefNomSg ;
++Acc+Sg:       FemDefAccSg ;
++Dat+Sg:       FemDefDatSg ;
++Gen+Sg:ar       FemDefGenSg ;
+
++Nom+Pl:ar      FemDefNomPl ;
++Acc+Pl:ar       FemDefAccPl ;
++Dat+Pl:um      FemDefDatPl ;
++Gen+Pl:a       FemDefGenPl ;
+
+LEXICON FemCaseIr
++Nom+Sg:       FemDefNomSg ;
++Acc+Sg:       FemDefAccSg ;
++Dat+Sg:       FemDefDatSg ;
++Gen+Sg:ar       FemDefGenSg ;
+
++Nom+Pl:ir      FemDefNomPl ;
++Acc+Pl:ir       FemDefAccPl ;
++Dat+Pl:um      FemDefDatPl ;
++Gen+Pl:a       FemDefGenPl ;
+
+LEXICON MascCaseWeak
++Nom+Sg:i       			MascDefNomSg ;
++Acc+Sg:a       			MascDefAccSg ;
++Dat+Sg:a       			MascDefDatSg ;
++Gen+Sg:a       			MascDefGenSg ;
+
+@R.WEAK.AR@+Nom+Pl:@R.WEAK.AR@ar      	MascDefNomPl ;
+@R.WEAK.UR@+Nom+Pl:@R.WEAK.UR@ur	MascDefNomPl ;
+@R.WEAK.UR@+Acc+Pl:@R.WEAK.UR@ur	MascDefAccPl ;
+@R.WEAK.AR@+Acc+Pl:@R.WEAK.AR@a       	MascDefAccPl ;
++Dat+Pl:um      			MascDefDatPl ;
++Gen+Pl:a       			MascDefGenPl ;
+
+LEXICON MascCaseN
++Nom+Sg:n      	MascDefNomSg ;
++Acc+Sg:0       MascDefAccSg ;
++Dat+Sg:i       MascDefDatSg ;
++Gen+Sg:s       MascDefGenSg ;
+
++Nom+Pl:ar      MascDefNomPl ;
++Acc+Pl:a       MascDefAccPl ;
++Dat+Pl:um      MascDefDatPl ;
++Gen+Pl:a       MascDefGenPl ;
+
+LEXICON MascCaseR
++Nom+Sg:ir      MascDefNomSg ;
++Acc+Sg:i       MascDefAccSg ;
++Dat+Sg:i       MascDefDatSg ;
++Gen+Sg:is       MascDefGenSg ;
+
++Nom+Pl:ar      MascDefNomPl ;
++Acc+Pl:a       MascDefAccPl ;
++Dat+Pl:um      MascDefDatPl ;
++Gen+Pl:a       MascDefGenPl ;
+
+LEXICON MascCase0
++Nom+Sg:0      MascDefNomSg ;
++Acc+Sg:0       MascDefAccSg ;
++Dat+Sg:i       MascDefDatSg ;
++Gen+Sg:s       MascDefGenSg ;
+
++Nom+Pl:ar      MascDefNomPl ;
++Acc+Pl:a       MascDefAccPl ;
++Dat+Pl:um      MascDefDatPl ;
++Gen+Pl:a       MascDefGenPl ;
+
+LEXICON MascCaseUr
++Nom+Sg:ur       			MascDefNomSg ;
++Acc+Sg:0       			MascDefAccSg ;
+@D.MASC.UR1@+Dat+Sg:@D.MASC.UR1@0       MascDefDatSg ;
+@R.MASC.UR1@+Dat+Sg:@R.MASC.UR1@i	MascDefDatSg ;
+@R.MASC.UR3@+Gen+Sg:@R.MASC.UR3@ar      MascDefGenSg ;
+@D.MASC.UR3@+Gen+Sg:@D.MASC.UR3@s	MascDefGenSg ;
+
+@D.MASC.UR1@+Nom+Pl:@D.MASC.UR1@ir      MascDefNomPl ;
+@R.MASC.UR1@+Nom+Pl:@R.MASC.UR1@ar	MascDefNomPl ;
+@D.MASC.UR1@+Acc+Pl:@D.MASC.UR1@i       MascDefAccPl ;
+@R.MASC.UR1@+Acc+Pl:@R.MASC.UR1@a	MascDefAccPl ;
++Dat+Pl:um      			MascDefDatPl ;
++Gen+Pl:a       			MascDefGenPl ;
+
+LEXICON MascCaseL
++Nom+Sg:l      	MascDefNomSg ;
++Acc+Sg:0       MascDefAccSg ;
++Dat+Sg:i       MascDefDatSg ;
++Gen+Sg:s       MascDefGenSg ;
+
++Nom+Pl:ar      MascDefNomPl ;
++Acc+Pl:a       MascDefAccPl ;
++Dat+Pl:um      MascDefDatPl ;
++Gen+Pl:a       MascDefGenPl ;
+
+LEXICON MascDefNomSg 
++Def:Inn	# ;
+		# ;
+
+LEXICON MascDefAccSg
++Def:Inn	# ;
+		# ;
+
+LEXICON MascDefDatSg
++Def:Inum	# ;
+		# ;
+
+LEXICON MascDefGenSg
++Def:Ins	# ;
+		# ;
+
+LEXICON MascDefNomPl
++Def:nir	# ;
+		# ;
+
+LEXICON MascDefAccPl
++Def:na		# ;
+		# ;
+
+LEXICON MascDefDatPl
++Def:num	# ;
+		# ;
+
+LEXICON MascDefGenPl
++Def:nna	# ;
+		# ;
+
+LEXICON FemDefNomSg
++Def:In        # ;
+                # ;
+
+LEXICON FemDefAccSg
++Def:Ina        # ;
+                # ;
+
+LEXICON FemDefDatSg
++Def:Inni       # ;
+                # ;
+
+LEXICON FemDefGenSg
++Def:Innar        # ;
+                # ;
+
+LEXICON FemDefNomPl
++Def:nar        # ;
+                # ;
+
+LEXICON FemDefAccPl
++Def:nar         # ;
+                 # ;
+
+LEXICON FemDefDatPl
++Def:num        # ;
+                # ;
+
+LEXICON FemDefGenPl
++Def:nna        # ;
+                # ;
+
+LEXICON NeuterDefNomSg
++Def:Ið        # ;
+                # ;
+
+LEXICON NeuterDefAccSg
++Def:Ið        # ;
+                # ;
+
+LEXICON NeuterDefDatSg
++Def:Inu       # ;
+                # ;
+
+LEXICON NeuterDefGenSg
++Def:Ins        # ;
+                # ;
+
+LEXICON NeuterDefNomPl
++Def:In        # ;
+                # ;
+
+LEXICON NeuterDefAccPl
++Def:In         # ;
+                # ;
+
+LEXICON NeuterDefDatPl
++Def:num        # ;
+                # ;
+
+LEXICON NeuterDefGenPl
++Def:nna        # ;
+                # ;
+
+
+END
+

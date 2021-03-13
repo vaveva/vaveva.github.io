@@ -1,0 +1,44 @@
+clear stack
+
+read lexc icelandic.lexc
+
+define Lexicon ;
+
+regex Lexicon ;
+
+define Flags %@P%.WEAK%.AR%@ | %@P%.WEAK%.UR%@ | %@P%.MASC%.UR1%@ | %@P%.MASC%.UR2%@ | %@P%.MASC%.UR3%@ | %@R%.WEAK%.UR%@ | %@R%.MASC%.UR3%@ | %@D%.MASC%.UR3%@ |
+		 %@R%.MASC%.UR1%@ | %@D%.MASC%.UR1%@ ;
+
+define Vowels a | e | i | o | u | y | ö | ú | ý | í  ;
+
+define Consonants b | c | d | f | g | h | j | k | l | m | n | p | r | s | t | v | þ | ð ;
+
+define DeleteI I -> 0 || Vowels | Vowels %^ | Vowels Flags _ ;
+
+define AddJ 0 -> j || Vowels _ %^ Vowels |  Flags %^ Vowels ;
+
+define Itoi I -> i || _ ;
+
+define AToÖ a -> ö || Consonants+ _ Consonants+ %^ u m | Consonants+ %^ u n | Consonants+ Flags %^ u m | Consonants+ Flags %^ u n ;
+
+define IIToI i i -> i || _ ;
+
+define KiliToKli k i l %^ i -> k l i || _ n u ;
+
+define RemoveI i -> 0 || _ l %^ u | l %^ a | l %^ i .#. | l Flags %^ u | l Flags %^ a | l Flags %^ i .#. ;
+
+define RemoveU u -> 0 || Vowels Consonants _ Consonants+ %^ a | Consonants+ %^ u ;
+
+define UmnumToNum u m n u m -> u n u m || _ ;
+
+define óToæ ó -> æ || _ Consonants+ %^ u r | Consonants+ Flags %^ u r ;
+
+define aToe a -> e || Vowels+ _ Consonants+ %^ u |  Consonants+ Flags %^ u;
+
+define CleanUp %^ -> 0 ;
+
+regex Lexicon .o. DeleteI .o. AddJ .o. IIToI .o. UmnumToNum .o. KiliToKli .o. 
+               RemoveI .o. Itoi .o. RemoveU .o. aToe .o. AToÖ .o. óToæ ;
+
+print lower-words
+
