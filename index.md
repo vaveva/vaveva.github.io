@@ -16,7 +16,7 @@ My email address is of the form first_name.last_name@helsinki.fi.
 
 ## Courses I've Taken
 
-# Bachelor's level courses 
+### Bachelor's level courses 
 
 [Machine Learning for linguits](https://studies.helsinki.fi/courses/cu/hy-CU-117878782-2020-08-01)
 [Introduction to language technology](https://studies.helsinki.fi/courses/cu/hy-CU-118591924-2020-08-01)
@@ -25,7 +25,7 @@ Command line course
 [Programming for linguists](https://studies.helsinki.fi/courses/cu/hy-CU-117878680-2020-08-01)
 [Building NLP applications](https://studies.helsinki.fi/courses/cu/hy-CU-117878830-2020-08-01)
 
-# Master's level courses
+### Master's level courses
 
 [Machine translation](https://studies.helsinki.fi/courses/cu/hy-CU-134683610-2020-08-01)
 [Computational morphology](https://studies.helsinki.fi/courses/cu/hy-CU-134683523-2020-08-01)
